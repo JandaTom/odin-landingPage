@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1f2937;
+}
+
+.firstSection {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.firstSection ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin-right: 20px;
+    
+}
+
+.firstSection a {
+    text-decoration: none;
+    color: white;
+}
