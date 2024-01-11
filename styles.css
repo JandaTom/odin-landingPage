@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding: 0px;
     margin: 0px; /*this allows background colour to reach edges */
-
+    
 }
 
 .firstBackground {
@@ -48,15 +48,18 @@ body {
 }
 
 .secondSectionLeft {
-    display: flex;
+    display: inline;
     max-width: 550px;
     flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-top: 0px;
     
 }
 
 .secondSectionLeft h2 {
     font-weight: 900;
     font-size: 20px;
+    display: inline;
 }
 
 .fourthSectionQuote {
@@ -80,4 +83,12 @@ body {
     font-size: 24px;
     font-weight: 900;
     text-align: end;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 15px;
+    color: white;
+    font-size: 12px;
 }
