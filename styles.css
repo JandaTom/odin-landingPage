@@ -59,8 +59,8 @@ body {
 }
 
 .secondSectionLeft h2 {
-    font-weight: 900;
-    font-size: 20px;
+    font-weight: 1000;
+    font-size: 40px;
     display: inline;
 }
 
@@ -72,6 +72,36 @@ body {
     padding: 7px 21px;
     border: 1px solid #3882f6;
     font-weight: 700;
+}
+.thirdSectionTop h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.thirdSectionList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.thirdSectionPairs {
+    max-width: 200px;
+}
+
+.thirdSectionPairs .box {
+    border: 3px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.thirdSectionPairs .text {
+    margin-bottom: 70px;
 }
 
 .fourthSectionQuote {
