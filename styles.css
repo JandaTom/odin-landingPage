@@ -15,13 +15,15 @@ body {
     color: white;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
+    /*
+    width: 80%;
+    margin: 0 auto; */
+    
 }
 
 .firstSection ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 20px;
     margin-right: 20px;
@@ -62,6 +64,16 @@ body {
     display: inline;
 }
 
+.secondSectionLeft button {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border-radius: 14px;
+    font-size: large;
+    padding: 7px 21px;
+    border: 1px solid #3882f6;
+    font-weight: 700;
+}
+
 .fourthSectionQuote {
     display: flex;
     justify-content: center;
@@ -83,6 +95,43 @@ body {
     font-size: 24px;
     font-weight: 900;
     text-align: end;
+}
+
+.fifthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 465px;
+}
+
+.fifthSectionBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.fifthSectionLeft {
+    color: white;
+}
+.fifthSectionLeft h3 {
+    margin-bottom: 5px;
+}
+.fifthSectionLeft p {
+    margin-top: 5px;
+}
+
+.fifthSectionRight button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 14px;
+    font-size: large;
+    color: white;
+    padding: 7px 21px;
 }
 
 footer {
